@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Table template</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Table template</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th scope="col">Padawan</th>
+          <th scope="col">Mestre</th>
+          <th scope="col">Afiliação</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row"><b>Yoda</b></td>
+         <td>
+      <table>
+        <tr>
+          <td>Dookan</td>
+          <td>Luke</td>
+      </table>
+          <td>N'kata Del Gormo</td>
+          <td>Jedi</td>
+          <td rowspan="5">Morto</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Dookan</b></td>
+          <td>Qui-Gon</td>
+           <td>
+      <table>
+        <tr>
+          <td>Yoda</td>
+          <td>Thame</td>
+      </table>
+          <td>Sith</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Qui-Gon</b></td>
+          <td>Obi-wan</td>
+          <td>Dookan</td>
+          <td rowspan="5">Jedi</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Obi-Wan</b></td>
+           <td>
+      <table>
+        <tr>
+          <td>Anakin</td>
+          <td>Luke</td>
+      </table>
+          <td>Qui-gon</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Anakin</b></td>
+          <td>Ahsoka</td>
+          <td>Obi-Wan</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Ahsoka</b></td>
+          <td rowspan="2">&nbsp;</td>
+          <td>Anakin</td>
+          <td>Viva</td>
+        </tr>
+        <tr>
+          <td scope="row"><b>Luke</b></td>
+           <td>
+      <table>
+        <tr>
+          <td>Obi-Wan</td>
+          <td>Yoda</td>
+      </table>
+          <td>Vivo</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
